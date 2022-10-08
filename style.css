@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    background-color: #ffcac2;
+}
+/* --------------NAVBAR--------------- */
+nav,
+footer div,
+nav ul,
+nav ul li{
+    display: inline-block;
+}
+header{
+    overflow: auto;
+    width: 90%;
+    margin: 0 auto;
+}
+hr{
+    border-top: none;
+    border-bottom: 2px dotted black;
+}
+header img{
+    width: 120px;
+}
+
+nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+nav{
+    float: right;
+    margin:  20px ;
+    padding: 5px;
+}
+/* --------------MAIN--------------- */
+.desc{
+    background-color: rgba(240, 248, 255, 0.747);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.bannier{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 20px;
+    height: 400px;
+    margin-top: 10px;
+}
+.desc p{
+    display: inline-block;
+    padding: 0 10px;
+}
+.bannier img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.desc button{
+    background-color: #740909;
+    padding: 5px;
+    color: aliceblue;
+    float: right;
+    margin-right: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    border: none;
+}
+h2,
+h1{
+    text-transform: uppercase;
+}
+.para{
+    width: 60%;
+    display: inline-block;
+}
+.para p{
+    text-align: justify;
+}
+.title{
+    text-align: center;
+    color: aliceblue;
+}
+.about{
+    float: right;
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.419);
+    border-radius: 10px;
+    padding: 20px;
+}
+.about p{
+    color: aliceblue;
+    text-align: justify;
+}
+.about img{
+    width: 110px;
+}
+.sticker{
+    text-align: center;
+}
+.sticker i{
+    font-size: 20px;
+    color: #ffcac2;
+    padding: 0 10px;
+}
+#section2{
+    width: 90%;
+    margin: 10px auto;
+}
+
+footer {
+    /* width: 90%; */
+    margin:10px 5% ;
+
+}
+
+footer > div{
+vertical-align: top;
+/* width: 33%; */
+margin-right: 15%;
+}
